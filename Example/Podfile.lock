@@ -1,5 +1,13 @@
 PODS:
-  - WTLogger (0.1.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - Reachability (3.2)
+  - SSZipArchive (2.0.3)
+  - WTLogger (0.1.0):
+    - FMDB
+    - Reachability
+    - SSZipArchive
 
 DEPENDENCIES:
   - WTLogger (from `../`)
@@ -9,7 +17,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  WTLogger: e2175788f681f24535fcdae88de2f45d77c6f22f
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SSZipArchive: b6648b70a36303ca5be9f0351174b347e1886236
+  WTLogger: aa97b57b614884581765fcd2cd5c4e048531ba70
 
 PODFILE CHECKSUM: 4a786c69f61ee6554c7adf57755bc3c8749963bd
 

@@ -7,6 +7,7 @@
 //
 
 #import "WTViewController.h"
+#import "WTLogger.h"
 
 @interface WTViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [WTLogger shareInstance];
+    for (int i = 0 ; i < 100; i++) {
+       [WTLogger event:@"qqqqq" attributes:@{@"qq":@"aaaaa"}];
+    }
+   
 }
 
 - (void)didReceiveMemoryWarning
