@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WTLogger_Example' do
+  pod 'WTLogger', :path => '../'
+
+  target 'WTLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
