@@ -1,0 +1,16 @@
+PODS:
+  - WTLogger (0.1.0)
+
+DEPENDENCIES:
+  - WTLogger (from `../`)
+
+EXTERNAL SOURCES:
+  WTLogger:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WTLogger: e2175788f681f24535fcdae88de2f45d77c6f22f
+
+PODFILE CHECKSUM: 4a786c69f61ee6554c7adf57755bc3c8749963bd
+
+COCOAPODS: 1.3.0
